@@ -16,6 +16,6 @@ However be careful as it's likely to trigger issues if you put much more than a 
 if(isset($parameters[1]) && $parameters[1] != "") $ending = $parameters[1];
 else $ending = "&amp;hellip;";
 
-Replace *&hellip;* with your preferred ending.
+Replace *&amp;hellip;* with your preferred ending.
       
       
