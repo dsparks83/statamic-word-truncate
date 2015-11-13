@@ -3,7 +3,8 @@ class Modifier_word_truncate extends Modifier
 {
     public function index($value, $parameters=array())
     {
-      $ending = "&hellip;";
+      if(isset($parameters[1]) && $parameters[1] != "") $ending = $parameters[1];
+      else $ending = "&hellip;";
       $length = $parameters[0];
       
       
