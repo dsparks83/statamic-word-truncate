@@ -1,4 +1,4 @@
-<?
+<?php
 class Modifier_word_truncate extends Modifier
 {
     public function index($value, $parameters=array())
